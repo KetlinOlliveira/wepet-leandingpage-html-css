@@ -11,10 +11,10 @@ body{
 }
 
 /*conteiners*/
-.conteiner{
+.container{
     max-width: 1200px;
-    padding: 0 auto;
-    margin: 0 24px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
 .header{
@@ -25,19 +25,21 @@ body{
     z-index: 1000;
 }
 
-.nav-conteiner{
+.nav-container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
 }
 
-.nav-content{
+.nav-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 16px 0;
+    justify-content: space-between;   
+    padding: 8px 0; 
+    height: 58px;
 }
 .logo{
+    
     display: flex;
     align-items: center;
     gap: 8px;
@@ -71,13 +73,14 @@ body{
 /*hero section*/
 
 .hero{
-    padding: 64px 0;
+    padding: 15px 0;
 }
 .hero-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px;
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px;
     align-items: center;
+    padding-top: 60px;
 }
 .hero-content{
     display: flex;
@@ -85,7 +88,7 @@ body{
     gap: 24px;
 }
 .hero-title{
-    font-size: 48px;
+    font-size: 52px;
     font-weight: bold;
     color: #1f2937;
     line-height: 1.2;
@@ -110,8 +113,9 @@ body{
 }
 .hero-contact{
     display: flex;
-    gap: 24px;
-    padding-top: 16px;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
 }
 .contact-item{
     display: flex;
@@ -136,9 +140,10 @@ body{
 }
 
 .hero-image img{
-    width: 100%;
-    height: auto;
-    display: block;
+   width: 100%;
+    height: 800px; 
+    object-fit: cover; 
+    border-radius: 24px;
 }
 
 .hero-badge{
@@ -158,6 +163,89 @@ body{
 .bagde-text{
     font-size: 14px ;
 }
+
+.services {
+    background: linear-gradient(to bottom, #fffbeb, #fff);
+    padding: 80px 0;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 64px;
+}
+.section-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 16px;
+}
+
+.section-description{
+    font-size: 20px;
+    color: #4b5563;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.service-card{
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+.service-card:hover{
+     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon{
+    width: 64px;
+    height: 64px;
+    background-color: #fef3c7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.service-icon img{
+    width: 32px;
+    height: 32px;
+}
+
+.service-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 16px;
+}
+
+.service-description{
+    color: #4b5563;
+    margin-bottom: 24px;
+}
+
+.service-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.service-list li{
+    color: #4b5563;
+}
+
+
+
+
+
+
 /*Responsidade*/
 @media(max-width: 768px){
     .nav-menu{

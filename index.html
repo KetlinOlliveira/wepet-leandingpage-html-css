@@ -11,8 +11,7 @@
 <body>
     <!--Header navigation-->
     <header class="header">
-        <nav class="nav-conteiner">
-            <div class="nav-conteiner">
+        <nav class="container nav-content">
                 <div class="logo">
                     <img src="assets/pet.png" alt="logotipo da wepet"  class="logo-icon">
                     <span class="logo-text">Wepet</span>
@@ -23,20 +22,17 @@
                     <li><a href="#Depoimentos">Depoimentos</a></li>
                     <li><a href="#Contato">Contato</a></li>
                 </ul>
-            </div>
         </nav>
     </header>
 
     <section class="hero">
-        <div class="conteiner">
-            <div class="hero-grid">
-                <div class="hero-content">
+        <div class="container hero-grid"><div class="hero-content">
                     <h1 class="hero-title">Cuidado e carinho com seu Pet</h1>
                     <p class="hero-description">
                         Oferecemos os melhores serviços de pet shop com profissinais experientes e dedicados ao bem-estar do seu melhor amigo.
                     </p>
                     <button class="btn-primary">Agendar agora</button>
-                    <div class="contact-item">
+                    <div class="hero-contact"> <div class="contact-item">
                         <img src="assets/telephone.png" alt="icon telefone" class="icon">
                         <span>(11) 1111-2222</span>
                     </div>
@@ -50,12 +46,72 @@
                 <div class="hero-image">
                     <img src="assets/gato.jpg" alt="gato fofo">
                </div>
-               <duv class="hero-badge">
+               <div class="hero-badge">
                 <p class="bagde-number"> + 5 anos</p>
                 <p class="bagde-text">de experiência</p>
-               </duv>    
+               </div>    
             </div>
-        </div>
-    </section>
+        </div></section>
+
+        <!--Serviços-->
+        <section id="servicos" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossos Serviços</h2>
+                    <p class="section-description">Tudo que seu pet precisa em um só lugar</p>
+                </div>
+
+                <div class="service-grid">
+                    <!--Serviço 1-->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/shower.png" alt="chuveiro">
+                        </div>
+                        <h3 class="service-title">Banho e Tosa</h3>
+                        <p class="service-description">Deixe seu pet limpinho e com um visual incrivel. Produtos
+                            de qualidade e profissionais experientes.</p>
+                        <ul class="service-list">
+                            <li>✓ Banho completo</li>
+                            <li>✓ Tosa higienica</li>
+                            <li>✓ Corte de unhas</li>
+                            <li>✓ Limpeza de ouvido</li>
+                        </ul>
+                    </div>
+
+                    <!--Serviço 2-->
+                     <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/stethoscope.png" alt="estetoscopio">
+                        </div>
+                        <h3 class="service-title">Consultas Veterinárias</h3>
+                        <p class="service-description">Atendimento veterinário completo com profissionais qualificados para cuidar do seu pet</p>
+                        <ul class="service-list">
+                            <li>✓ Consultas gerais</li>
+                            <li>✓ Vacinação</li>
+                            <li>✓ Exames laboratioriais</li>
+                            <li>✓ Cirurgias</li>
+                        </ul>
+                    </div>
+
+                    <!--Serviço 3-->
+                     <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/spa.png" alt="spa">
+                        </div>
+                        <h3 class="service-title">SPA Pet</h3>
+                        <p class="service-description">
+                            Tratamentos especiais para deixar seu pet relaxado e ainda mais bonito com nossos pacotes exclusivos.
+                        </p>
+                        <ul class="service-list">
+                            <li>✓ Hidratação de pelos</li>
+                            <li>✓ Massagem relaxante</li>
+                            <li>✓ Aromaterapia</li>
+                            <li>✓ Pacotes personalizados</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 </body>
 </html>
