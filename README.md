@@ -69,7 +69,7 @@ O projeto **Wepet** é uma landing page desenvolvida com foco em fidelidade de d
 
 ```bash
 # 1. Clone este repositório
-$ git clone [https://github.com/KetlinOlliveira/wepet-landing-page.git](https://github.com/KetlinOlliveira/wepet-landing-page.git)
+$ git clone [https://github.com/KetlinOlliveira/wepet-leandingpage-html-css.git](https://github.com/KetlinOlliveira/wepet-leandingpage-html-css.git)
 
 # 2. Acesse a pasta do projeto
 $ cd wepet-landing-page
